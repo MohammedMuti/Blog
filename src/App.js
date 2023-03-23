@@ -21,11 +21,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
         <Routes>
-          <Route path="/Blog/post/:postId" exact element={<Single />} />
+          <Route path="/post/:postId" exact element={<Single />} />
           <Route
-            path="/Blog/settings"
+            path="/settings"
             exact
             element={user ? <Setting /> : <Register />}
           />
@@ -40,7 +39,7 @@ function App() {
             exact
             element={user ? <Home /> : <Register />}
           />
-          <Route path="/Blog/" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
         </Routes>
       </Router>
     </div>
