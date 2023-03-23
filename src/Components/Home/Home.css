@@ -1,0 +1,17 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .home {
+    display: block;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,188 @@
+.nav-component {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -3px;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .nav-component {
+    height: 80px;
+  }
+}
+
+.nav-component .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .nav-component .navbar {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.nav-component .navbar .navLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.nav-component .navbar .navLeft i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .nav-component .navbar .navLeft {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+}
+
+.nav-component .navbar .navMid {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.nav-component .navbar .navMid ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+.nav-component .navbar .navMid ul li {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .nav-component .navbar .navMid {
+    display: none;
+  }
+}
+
+.nav-component .navbar .navRight {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-component .navbar .navRight img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nav-component .navbar .navRight ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+.nav-component .navbar .navRight ul li {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.nav-component .navbar .navRight i {
+  font-size: 20px;
+  margin-left: 15px;
+  color: #666;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .nav-component .navbar .navRight i {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-component .navbar .navRight {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+}
+
+.nav-component .navMiddle {
+  display: none;
+  padding-top: 1rem;
+}
+
+.nav-component .navMiddle ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+}
+
+.nav-component .navMiddle ul li {
+  padding: 0 10px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .nav-component .navMiddle {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

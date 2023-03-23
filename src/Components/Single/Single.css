@@ -1,0 +1,12 @@
+.single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .single {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Single.css.map */

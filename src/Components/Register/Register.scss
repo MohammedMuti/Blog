@@ -1,0 +1,67 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  padding-top: 10%;
+  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(154, 154, 154, 0)),
+    url(../../Images/Back/2.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+
+  span {
+    font-size: 50px;
+    color: white;
+  }
+
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    @media (max-width: 700px) {
+      width: 80%;
+    }
+
+    label {
+      margin: 10px 0;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    input {
+      padding: 10px;
+      background-color: white;
+      border: none;
+    }
+
+    p {
+      color: red;
+      text-align: center;
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+    button {
+      margin-top: 20px;
+      cursor: pointer;
+      background-color: teal;
+      border: none;
+      padding: 10px;
+      color: white;
+    }
+  }
+  .registerBtn {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    @media (max-width: 1000px) {
+      top: 90px;
+    }
+  }
+}

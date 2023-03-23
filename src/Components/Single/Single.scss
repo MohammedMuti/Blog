@@ -1,0 +1,6 @@
+.single {
+  display: flex;
+  @media (max-width: 700px) {
+    display: block;
+  }
+}

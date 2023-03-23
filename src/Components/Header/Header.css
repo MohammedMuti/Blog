@@ -1,0 +1,51 @@
+.header {
+  margin-top: 4rem;
+}
+
+.header .header-titles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #444;
+  font-family: "Lora", serif;
+}
+
+.header .header-titles .headerTitleSm {
+  position: absolute;
+  top: 15%;
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .header .header-titles .headerTitleSm {
+    top: 20%;
+  }
+}
+
+.header .header-titles .headerTitleLg {
+  position: absolute;
+  top: 18%;
+  font-size: 100px;
+}
+
+@media (max-width: 1000px) {
+  .header .header-titles .headerTitleLg {
+    top: 23%;
+  }
+}
+
+.header img {
+  width: 100%;
+  height: 550px;
+  margin-top: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Header.css.map */

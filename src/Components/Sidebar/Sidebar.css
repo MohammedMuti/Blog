@@ -1,0 +1,88 @@
+.sidebar {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .sidebarItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .sidebarItem img {
+  margin-top: 15px;
+  width: 80%;
+}
+
+.sidebar .sidebarItem p {
+  padding: 30px;
+  text-align: center;
+}
+
+.sidebar .sidebarItem ul {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar .sidebarItem ul li {
+  display: inline-block;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.sidebar .sidebarItem .sidebarSocial {
+  margin-top: 15px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sidebar .sidebarItem .sidebarSocial i {
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.sidebar .sidebarItem span {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+  font-size: 12px;
+  color: #222;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=Sidebar.css.map */

@@ -1,0 +1,89 @@
+.login {
+  height: calc(100vh - 50px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(94, 94, 94, 0.5)), to(rgba(154, 154, 154, 0))), url(../../Images/yourName/1.png);
+  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(154, 154, 154, 0)), url(../../Images/yourName/1.png);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login span {
+  font-size: 50px;
+  color: white;
+}
+
+.login form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+}
+
+@media (max-width: 700px) {
+  .login form {
+    width: 80%;
+  }
+}
+
+.login form label {
+  margin: 10px 0;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.login form input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.login form p {
+  color: red;
+  margin-top: 1rem;
+}
+
+.login form button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.login form button:disabled {
+  cursor: not-allowed;
+}
+
+.login .registerBtn {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .login .registerBtn {
+    top: 90px;
+  }
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,118 @@
+.setting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .setting {
+    display: block;
+  }
+}
+
+.setting .settingWrapper {
+  -webkit-box-flex: 9;
+      -ms-flex: 9;
+          flex: 9;
+  padding: 20px;
+}
+
+.setting .settingTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.setting .settingTitle .settingUpdate {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: lightcoral;
+}
+
+.setting .settingTitle .settingDelete {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.setting form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.setting form label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.setting form input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.setting form .settingPP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.setting form .settingPP img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.setting form .settingPP label i {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: white;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.setting form button {
+  width: 150px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Setting.css.map */

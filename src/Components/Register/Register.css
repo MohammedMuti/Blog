@@ -1,0 +1,87 @@
+.register {
+  height: calc(100vh - 50px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(94, 94, 94, 0.5)), to(rgba(154, 154, 154, 0))), url(../../Images/Back/2.jpg);
+  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(154, 154, 154, 0)), url(../../Images/Back/2.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register span {
+  font-size: 50px;
+  color: white;
+}
+
+.register form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+}
+
+@media (max-width: 700px) {
+  .register form {
+    width: 80%;
+  }
+}
+
+.register form label {
+  margin: 10px 0;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.register form input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.register form p {
+  color: red;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.register form button {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+.register .registerBtn {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .register .registerBtn {
+    top: 90px;
+  }
+}
+/*# sourceMappingURL=Register.css.map */
