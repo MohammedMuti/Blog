@@ -23,9 +23,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/post/:postId" exact element={<Single />} />
+          <Route path="/Blog/post/:postId" exact element={<Single />} />
           <Route
-            path="/settings"
+            path="/Blog/settings"
             exact
             element={user ? <Setting /> : <Register />}
           />
@@ -40,7 +40,7 @@ function App() {
             exact
             element={user ? <Home /> : <Register />}
           />
-          <Route path="/" exact element={<Home />} />
+          <Route path="/Blog/" exact element={<Home />} />
         </Routes>
       </Router>
     </div>
