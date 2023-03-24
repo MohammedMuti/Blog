@@ -14,7 +14,7 @@ const Navbar = () => {
     }
   };
 
-  const PF = "http://localhost:8000/Profiles/";
+  const PF = "https://blog-server-eh2n.onrender.com/Profiles/";
 
   return (
     <div className="nav-component">

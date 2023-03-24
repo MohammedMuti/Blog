@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Post.css";
 
 const Post = ({ post }) => {
-  const PF = "http://localhost:8000/images/";
+  const PF = "https://blog-server-eh2n.onrender.com/images/";
 
   return (
     <>
