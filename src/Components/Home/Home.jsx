@@ -20,7 +20,6 @@ const Home = () => {
   }, [search]);
   return (
     <>
-        <Navbar />
       <Header />
       <div className="home">
         <Posts posts={posts} />
