@@ -5,7 +5,7 @@ import ContextProvider from "../../Context/Context";
 import axios from "../axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 
 const Setting = () => {
   const [{ user }, dispatch] = useContext(ContextProvider);

@@ -6,7 +6,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import "./Home.css";
 import axios from "../axios";
 import { useLocation } from "react-router-dom";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   const [posts, setPosts] = useState([]);

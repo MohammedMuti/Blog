@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ContextProvider from "../../Context/Context";
 import "./Login.css";
 import { useEffect } from "react";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 
 const Login = () => {
   const [username, setUsername] = useState("");

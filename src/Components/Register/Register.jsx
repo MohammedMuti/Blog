@@ -2,7 +2,7 @@ import axios from "../axios";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Register.css";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 
 const Register = () => {
   const [username, setUsername] = useState("");

@@ -4,7 +4,7 @@ import axios from "../axios";
 import { useContext } from "react";
 import ContextProvider from "../../Context/Context";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 
 const Write = () => {
   const [title, setTitle] = useState("");
