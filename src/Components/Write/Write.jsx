@@ -61,7 +61,7 @@ const Write = () => {
       )
       .then((res) => {
         console.log(res);
-        navigate("/");
+        navigate("/Blog");
       })
       .catch((err) => {
         console.log(err);

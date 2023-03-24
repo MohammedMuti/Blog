@@ -7,7 +7,9 @@ const Post = ({ post }) => {
   return (
     <>
       <div className="post">
-        {post.photo && <img src={PF + post.photo} alt="" />}
+        <Link to={`/post/${post._id}`}>
+          {post.photo && <img src={PF + post.photo} alt="" />}
+        </Link>
         <div className="postInfo">
           <div className="postCats">
             {post.categories.map((cat) => {
