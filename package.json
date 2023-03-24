@@ -1,6 +1,6 @@
 {
-  "homepage": "https://MohammedMuti.github.io/Blog",
   "name": "client",
+  "homepage": "http://MohammedMuti.github.io/Blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

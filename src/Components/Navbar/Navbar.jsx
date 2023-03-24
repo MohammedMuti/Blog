@@ -28,13 +28,13 @@ const Navbar = () => {
         <div className="navMid">
           <ul className="nav-list">
             <li>
-              <Link to="/">HOME</Link>
+              <Link to="/Blog">HOME</Link>
             </li>
             <li>
-              <Link to="/">ABOUT</Link>
+              <Link to="/Blog">ABOUT</Link>
             </li>
             <li>
-              <Link to="/">CONTACT</Link>
+              <Link to="/Blog">CONTACT</Link>
             </li>
             <li>
               <Link to="/write">WRITE</Link>
@@ -65,13 +65,13 @@ const Navbar = () => {
       <div className="navMiddle">
         <ul className="nav-list">
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="/Blog">HOME</Link>
           </li>
           <li>
-            <Link to="/">ABOUT</Link>
+            <Link to="/Blog">ABOUT</Link>
           </li>
           <li>
-            <Link to="/">CONTACT</Link>
+            <Link to="/Blog">CONTACT</Link>
           </li>
           <li>
             <Link to="/write">WRITE</Link>
