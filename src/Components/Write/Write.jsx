@@ -4,6 +4,7 @@ import axios from "../axios";
 import { useContext } from "react";
 import ContextProvider from "../../Context/Context";
 import { useNavigate } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
 
 const Write = () => {
   const [title, setTitle] = useState("");
@@ -69,6 +70,7 @@ const Write = () => {
 
   return (
     <>
+      <Navbar />
       <div className="write">
         {image && <img src={image} alt="" />}
         <form onSubmit={handleSubmit}>

@@ -1,5 +1,4 @@
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Single from "./Components/Single/Single";
@@ -21,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/post/:postId" exact element={<Single />} />
           <Route

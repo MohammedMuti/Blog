@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import ContextProvider from "../../Context/Context";
 import "./Login.css";
 import { useEffect } from "react";
+import Navbar from "./Components/Navbar/Navbar";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -55,6 +56,7 @@ const Login = () => {
 
   return (
     <>
+      <Navbar />
       <div className="login">
         <span>Login</span>
         <form onSubmit={handleSubmit}>

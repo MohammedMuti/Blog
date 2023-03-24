@@ -6,6 +6,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import "./Home.css";
 import axios from "../axios";
 import { useLocation } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
@@ -20,6 +21,7 @@ const Home = () => {
   }, [search]);
   return (
     <>
+      <Navbar />
       <Header />
       <div className="home">
         <Posts posts={posts} />
