@@ -38,7 +38,7 @@ function App() {
             exact
             element={user ? <Home /> : <Register />}
           />
-          <Route path="/Blog" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
     </div>
