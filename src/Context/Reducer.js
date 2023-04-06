@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import ContextProvider from "./Context";
 
 const defaultState = {
-  user: JSON.parse(localStorage.getItem("username")) || null,
+  user: JSON.parse(localStorage.getItem("BlogUsername")) || null,
   isFetching: false,
   error: false,
 };
